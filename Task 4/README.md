@@ -12,10 +12,11 @@ Charlie wants to make her model work for future data sets, so she needs a genera
 2. **Mean Squared Error:**
    - Approximate all entries in a bucket to one value, minimizing the associated squared error.
    - Minimize the following:
+```python
      \[
      \text{MSE} = \sum_{i=1}^{N} (x_i - \hat{x_i})^2
      \]
-
+```
 3. **Log-Likelihood:**
    - Maximize the following log-likelihood function:
      \[
